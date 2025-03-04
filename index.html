@@ -1,25 +1,194 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>vodaaika page Seja bem vindo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <div>
-    <img src="./logo.jpg" alt="logo Prefeitura" />
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    /*<link rel="stylesheet" href="./styles.css">*/
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;500&display=swap" rel="stylesheet">
+    <title>Projeto Cafeteria</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <section>
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </a>
+            <nav class="navbar">
+                <a class="link-menu" href="#">Home</a>
+                <a class="link-menu" href="#about">Sobre</a>
+                <a class="link-menu" href="#menu">Menu</a>
+                <a class="link-menu" href="#review">Avaliações</a>
+                <a class="link-menu" href="#address">Endereço</a>
+            </nav>
+            <div class="icons">
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
+                    alt="shopping-cart--v1" />
+                <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
+                    alt="search--v1" />
+            </div>
+        </section>
+    </header>
+
+
+    <div class="home-container">
+        <section id="#home">
+            <div class="content">
+                <h3> Porque tomar CAFÉ</h3>
+                <p>O café é uma bebida agradável que alimenta o corpo e aquece a alma,
+                    aproxima as pessoas e traz uma sensação de bem-estar.</p>
+                <a href="#" class="btn">Pegue o seu agora</a>
+            </div>
+        </section>
     </div>
-    <div>
-        <label>Nome da pessoa</label>
-            <input type="text"/>
-    </div>
-    <div>
-        <label>Valor total da remuneração</label>
-            <input type="text"/>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+    <section class="about" id="about">
+        <h2 class="title">Sobre<Span>Nós</Span></h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="./img/about-img.jpg" alt="sobre-nós">
+            </div>
+            <div class="content">
+                <h3>O que faz o nosso café especial</h3>
+                <p>Trata-se de uma bebida com um aroma muito especial.</p>
+                <p> O nosso café possue frutos vermelhos e amarelos.
+                    Essa diferença de cor influencia as características
+                    sensoriais e nutricionais e ainda traz um sabor diferenciado. </p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="menu" id="menu">
+        <h2 class="title">Nosso <span>Menu</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/menu-1.png" alt="item1">
+                <h3>Café coado</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicione ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-2.png" alt="item2">
+                <h3>Café coado</h3>
+                <div class="price">R$ 16,99 <span>R$ 21,99</span></div>
+                <a href="#" class="btn">Adicione ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-3.png" alt="item3">
+                <h3>Café coado</h3>
+                <div class="price">R$ 17,99 <span>R$ 22,99</span></div>
+                <a href="#" class="btn">Adicione ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-4.png" alt="item4">
+                <h3>Café coado</h3>
+                <div class="price">R$ 18,99 <span>R$ 23,99</span></div>
+                <a href="#" class="btn">Adicione ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-5.png" alt="item5">
+                <h3>Café coado</h3>
+                <div class="price">R$ 19,99 <span>R$ 24,99</span></div>
+                <a href="#" class="btn">Adicione ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-6.png" alt="item6">
+                <h3>Café coado</h3>
+                <div class="price">R$ 20,99 <span>R$ 25,99</span></div>
+                <a href="#" class="btn">Adicione ao carrinho</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h2 class="title">Nossos <span>Clientes</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/quote-img.png" alt="comentario">
+                <p>O café coado é especial parece feito em casa.</p>
+                <img src="./img/pic-1.png" alt="foto-cliente1" class="user">
+                <h3>Luis Fernando</h3>
+                <div class="star">
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/quote-img.png" alt="comentario">
+                <p>O café mocha tem sabor de alegria.</p>
+                <img src="./img/pic-2.png" alt="foto-cliente2" class="user">
+                <h3>Maria Cláudia</h3>
+                <div class="star">
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/quote-img.png" alt="comentario">
+                <p>O café espresso é ótimo para começar o dia</p>
+                <img src="./img/pic-3.png" alt="foto-cliente3" class="user">
+                <h3>João Alberto</h3>
+                <div class="star">
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address" id="address">
+        <h2 class="title">Nosso <span>Endereço</span></h2>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29248.05423747713!2d-46.76573038101195!3d-23.604089801202782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57fb97895f3d%3A0xb3958ef619d1e48!2sWork%20Coffee%20-%20Caf%C3%A9%2C%20coworking%2C%20livros%20e%20papelaria%20em%20um%20s%C3%B3%20lugar.!5e0!3m2!1spt-BR!2sbr!4v1729088194326!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <Section class="footer">
+        <div class="share">
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png" alt="instagram-new--v1"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="linkedin"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/ffffff/email-open.png" alt="email-open"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/50/ffffff/facebook-new.png" alt="facebook-new"/>
+        </div>
+    </Section>
+</body>
+
 </html>
